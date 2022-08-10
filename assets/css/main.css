@@ -11,6 +11,13 @@
 	display: none;
 }
 
+#resume-btn {
+	background-color: #49bf9d;
+	border-color: #ffffff;
+	color: #ffffff !important;
+	opacity:  .75;
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -2521,9 +2528,10 @@ input, select, textarea {
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		.button.primary {
-			background-color: #49bf9d;
-			border-color: #49bf9d;
+			/* background-color: #49bf9d; */
+			border-color: #ffffff;
 			color: #ffffff !important;
+			opacity: .75;
 		}
 
 			input[type="submit"].primary:hover,
