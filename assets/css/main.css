@@ -2532,6 +2532,7 @@ input, select, textarea {
 			border-color: #ffffff;
 			color: #ffffff !important;
 			opacity: .75;
+			border-width: 1px;
 		}
 
 			input[type="submit"].primary:hover,
